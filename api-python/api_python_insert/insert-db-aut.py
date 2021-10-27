@@ -10,7 +10,7 @@ try:
     vetMem = []
     vetCpu = []
     vetDisc = []
-    server_id = 0
+    server_id = 3
 
     while True:
         server_id += 1
@@ -72,7 +72,7 @@ try:
             time.sleep(2)
             
             insert_db(cpu_used3, mem_used3, disc_used3, server_id)
-            server_id = 0
+            server_id = 3
       
            
     
