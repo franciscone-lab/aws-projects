@@ -15,7 +15,7 @@ try:
     while True:
         server_id += 1
 
-        if(server_id==1):
+        if(server_id==4):
 
             mem_used = (psutil.virtual_memory().percent)
             cpu_used = (psutil.cpu_percent())
@@ -34,7 +34,7 @@ try:
             
             insert_db(cpu_used, mem_used, disc_used, server_id)
         
-        elif(server_id==2):
+        elif(server_id==5):
         # Funções de 1º Grau (f(x) = ax + b)
             mem_used2 = mem_used * 0.1
             cpu_used2 = cpu_used * 0.95
@@ -54,7 +54,7 @@ try:
             insert_db(cpu_used2, mem_used2, disc_used2, server_id)
 
 
-        elif(server_id==3):
+        elif(server_id==6):
 
             mem_used3 = mem_used * 0.3
             cpu_used3 = cpu_used * 0.55
