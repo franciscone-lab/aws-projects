@@ -1,4 +1,4 @@
-usr = 'root'
-pswd = '7010'
+usr = 'moni'
+pswd = 'urubu100'
 
 
